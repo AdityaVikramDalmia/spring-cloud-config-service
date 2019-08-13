@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8292/
+      enabled: true
+#      search-paths:
+#        - '*service'
+  application:
+    name: membership
+
+management:
+  security:
+    enabled: false
